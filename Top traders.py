@@ -1,5 +1,6 @@
 # The program which takes specific traders' list and figures out top three traders who gave maximum contribution to overall trade
 
+
 def remove_duplicates(customers):
     """takes list and removes duplicates from it"""
     customer_names = []
@@ -80,6 +81,3 @@ if __name__ == '__main__':
     for i, most_active_customer in enumerate(most_active_customers, 1):
         print(i, most_active_customer.title())
 
-
-    
-    
